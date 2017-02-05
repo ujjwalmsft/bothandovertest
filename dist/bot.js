@@ -34,8 +34,8 @@ app.post('/api/messages', connector.listen());
 const isAgent = (session) => session.message.user.name.startsWith("Agent");
 const handoff = new handoff_1.Handoff(bot, isAgent);
 
-app.use('/agentwebchat', express.static('agent'));
-app.use('/userwebchat', express.static('public'));
+//app.use('/agentwebchat', express.static('agent'));
+app.use('/webchat', express.static('public'));
     
 //========================================================
 // Bot Middleware
