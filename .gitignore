@@ -1,5 +1,5 @@
-node_modules
-**/wwwroot/app/**/*.ts  
+node_modules 
+**/wwwroot/app/**/*.ts
 ngrok.exe
 
 ## Ignore Visual Studio temporary files, build results, and
