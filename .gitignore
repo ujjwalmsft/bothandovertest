@@ -1,6 +1,5 @@
 node_modules
 wwwroot/app/**/*.ts  
-wwwroot/app/**/*.map
 ngrok.exe
 
 
